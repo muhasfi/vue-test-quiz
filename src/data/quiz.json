@@ -36,6 +36,24 @@
           { "id": 2, "label": "B", "text": "Python", "correct": true },
           { "id": 3, "label": "C", "text": "JavaScript", "correct": false }
         ]
+      },
+      {
+        "id": 3,
+        "text": "Which HTML tag is used to create a hyperlink?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "<a>", "correct": true },
+          { "id": 2, "label": "B", "text": "<link>", "correct": false },
+          { "id": 3, "label": "C", "text": "<href>", "correct": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is a JavaScript framework?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Laravel", "correct": false },
+          { "id": 2, "label": "B", "text": "Vue", "correct": true },
+          { "id": 3, "label": "C", "text": "Django", "correct": false }
+        ]
       }
     ]
   },
@@ -73,6 +91,39 @@
             "id": 3,
             "label": "C",
             "text": "Input Output Terminal",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What company developed the Android operating system?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Apple", "correct": false },
+          { "id": 2, "label": "B", "text": "Google", "correct": true },
+          { "id": 3, "label": "C", "text": "Microsoft", "correct": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What does CPU stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Central Processing Unit",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Computer Personal Unit",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Central Power Utility",
             "correct": false
           }
         ]
@@ -126,6 +177,24 @@
           { "id": 2, "label": "B", "text": "Gobi", "correct": false },
           { "id": 3, "label": "C", "text": "Atacama", "correct": false }
         ]
+      },
+      {
+        "id": 3,
+        "text": "What planet is known as the Red Planet?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Mars", "correct": true },
+          { "id": 2, "label": "B", "text": "Venus", "correct": false },
+          { "id": 3, "label": "C", "text": "Jupiter", "correct": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What gas do plants absorb from the atmosphere?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Oxygen", "correct": false },
+          { "id": 2, "label": "B", "text": "Carbon Dioxide", "correct": true },
+          { "id": 3, "label": "C", "text": "Nitrogen", "correct": false }
+        ]
       }
     ]
   },
@@ -160,6 +229,24 @@
             "text": "William Shakespeare",
             "correct": true
           }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which ocean is the largest?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Indian Ocean", "correct": false },
+          { "id": 2, "label": "B", "text": "Pacific Ocean", "correct": true },
+          { "id": 3, "label": "C", "text": "Atlantic Ocean", "correct": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "How many continents are there on Earth?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "5", "correct": false },
+          { "id": 2, "label": "B", "text": "6", "correct": false },
+          { "id": 3, "label": "C", "text": "7", "correct": true }
         ]
       }
     ]

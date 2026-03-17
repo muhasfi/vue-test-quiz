@@ -9,8 +9,9 @@ import { RouterView } from "vue-router";
 </template>
 
 <style scoped>
-main {
-  max-width: 900px;
-  margin: 0 auto;
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
 </style>
