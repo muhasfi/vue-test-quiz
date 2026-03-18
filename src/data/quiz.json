@@ -54,6 +54,175 @@
           { "id": 2, "label": "B", "text": "Vue", "correct": true },
           { "id": 3, "label": "C", "text": "Django", "correct": false }
         ]
+      },
+      {
+        "id": 5,
+        "text": "Which language is used for styling web pages?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "HTML", "correct": false },
+          { "id": 2, "label": "B", "text": "CSS", "correct": true },
+          { "id": 3, "label": "C", "text": "Python", "correct": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which symbol is used for comments in JavaScript?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "//", "correct": true },
+          { "id": 2, "label": "B", "text": "<!-- -->", "correct": false },
+          { "id": 3, "label": "C", "text": "#", "correct": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Which method converts JSON to object in JavaScript?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "JSON.parse()", "correct": true },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "JSON.stringify()",
+            "correct": false
+          },
+          { "id": 3, "label": "C", "text": "JSON.convert()", "correct": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which HTML tag is used for images?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "<img>", "correct": true },
+          { "id": 2, "label": "B", "text": "<image>", "correct": false },
+          { "id": 3, "label": "C", "text": "<src>", "correct": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Which keyword is used to declare variable in JavaScript?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "var", "correct": true },
+          { "id": 2, "label": "B", "text": "int", "correct": false },
+          { "id": 3, "label": "C", "text": "string", "correct": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Which CSS property is used to change text color?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "font-color", "correct": false },
+          { "id": 2, "label": "B", "text": "text-color", "correct": false },
+          { "id": 3, "label": "C", "text": "color", "correct": true }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Which PHP framework is widely used for web development?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Laravel", "correct": true },
+          { "id": 2, "label": "B", "text": "Spring", "correct": false },
+          { "id": 3, "label": "C", "text": "Flask", "correct": false }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "What does CSS stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Computer Style Sheets",
+            "correct": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Cascading Style Sheets",
+            "correct": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Creative Style Syntax",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Which data structure uses LIFO (Last In First Out) order?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Queue", "correct": false },
+          { "id": 2, "label": "B", "text": "Stack", "correct": true },
+          { "id": 3, "label": "C", "text": "Linked List", "correct": false }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Which SQL command is used to retrieve data from a database?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "GET", "correct": false },
+          { "id": 2, "label": "B", "text": "FETCH", "correct": false },
+          { "id": 3, "label": "C", "text": "SELECT", "correct": true }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Which HTTP method is used to send data to a server to create a resource?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "GET", "correct": false },
+          { "id": 2, "label": "B", "text": "POST", "correct": true },
+          { "id": 3, "label": "C", "text": "DELETE", "correct": false }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Which Git command is used to save changes to the local repository?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "git push", "correct": false },
+          { "id": 2, "label": "B", "text": "git save", "correct": false },
+          { "id": 3, "label": "C", "text": "git commit", "correct": true }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "What is the correct way to write a comment in PHP?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "// comment", "correct": true },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<!-- comment -->",
+            "correct": false
+          },
+          { "id": 3, "label": "C", "text": "** comment **", "correct": false }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Which CSS property is used to control the space between elements?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "spacing", "correct": false },
+          { "id": 2, "label": "B", "text": "margin", "correct": true },
+          { "id": 3, "label": "C", "text": "gap-size", "correct": false }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Which of the following is NOT a primitive data type in JavaScript?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "String", "correct": false },
+          { "id": 2, "label": "B", "text": "Boolean", "correct": false },
+          { "id": 3, "label": "C", "text": "Object", "correct": true }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Which command is used to install packages in a Node.js project?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "npm install", "correct": true },
+          { "id": 2, "label": "B", "text": "node install", "correct": false },
+          { "id": 3, "label": "C", "text": "npm get", "correct": false }
+        ]
       }
     ]
   },
@@ -127,6 +296,260 @@
             "correct": false
           }
         ]
+      },
+      {
+        "id": 5,
+        "text": "What does RAM stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Random Access Memory",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Read Access Memory",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Run Access Memory",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which company created Windows OS?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Apple", "correct": false },
+          { "id": 2, "label": "B", "text": "Microsoft", "correct": true },
+          { "id": 3, "label": "C", "text": "Google", "correct": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "What does AI stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Automated Interface",
+            "correct": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Artificial Intelligence",
+            "correct": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Advanced Integration",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which company developed the iPhone?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Samsung", "correct": false },
+          { "id": 2, "label": "B", "text": "Sony", "correct": false },
+          { "id": 3, "label": "C", "text": "Apple", "correct": true }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "What does USB stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Universal Serial Bus",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Unified System Bridge",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Universal Storage Block",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Which search engine has the largest market share worldwide?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Bing", "correct": false },
+          { "id": 2, "label": "B", "text": "Yahoo", "correct": false },
+          { "id": 3, "label": "C", "text": "Google", "correct": true }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "What does GPS stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Global Positioning System",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "General Pulse Signal",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Geo Processing Software",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Which of the following is a cloud storage service?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Photoshop", "correct": false },
+          { "id": 2, "label": "B", "text": "Google Drive", "correct": true },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "VLC Media Player",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "What does SSD stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Solid State Drive",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Super Speed Disk",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Serial Storage Device",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Which social media platform is known for short video content called 'Reels' and 'Stories'?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Twitter", "correct": false },
+          { "id": 2, "label": "B", "text": "LinkedIn", "correct": false },
+          { "id": 3, "label": "C", "text": "Instagram", "correct": true }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "What technology allows devices to communicate wirelessly over short distances?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Bluetooth", "correct": true },
+          { "id": 2, "label": "B", "text": "Ethernet", "correct": false },
+          { "id": 3, "label": "C", "text": "Fiber Optic", "correct": false }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "What does VPN stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Virtual Private Network",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Visual Processing Node",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Verified Public Network",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Which company developed the PlayStation gaming console?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Microsoft", "correct": false },
+          { "id": 2, "label": "B", "text": "Nintendo", "correct": false },
+          { "id": 3, "label": "C", "text": "Sony", "correct": true }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "What does HTTP stand for?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "HyperText Transfer Protocol",
+            "correct": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "High Transfer Text Process",
+            "correct": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Hyperlink Text Transmission Protocol",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Which of the following is an open-source operating system?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Windows 11", "correct": false },
+          { "id": 2, "label": "B", "text": "macOS", "correct": false },
+          { "id": 3, "label": "C", "text": "Linux", "correct": true }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "What does QR in QR Code stand for?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Quick Response", "correct": true },
+          { "id": 2, "label": "B", "text": "Query Request", "correct": false },
+          { "id": 3, "label": "C", "text": "Queue Register", "correct": false }
+        ]
       }
     ]
   },
@@ -151,6 +574,173 @@
           { "id": 1, "label": "A", "text": "Isaac Newton", "correct": false },
           { "id": 2, "label": "B", "text": "Albert Einstein", "correct": true },
           { "id": 3, "label": "C", "text": "Galileo Galilei", "correct": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What planet is closest to the Sun?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Mercury", "correct": true },
+          { "id": 2, "label": "B", "text": "Venus", "correct": false },
+          { "id": 3, "label": "C", "text": "Earth", "correct": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What gas do humans need to breathe?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Oxygen", "correct": true },
+          { "id": 2, "label": "B", "text": "Carbon Dioxide", "correct": false },
+          { "id": 3, "label": "C", "text": "Nitrogen", "correct": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the powerhouse of the cell?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Nucleus", "correct": false },
+          { "id": 2, "label": "B", "text": "Mitochondria", "correct": true },
+          { "id": 3, "label": "C", "text": "Ribosome", "correct": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "What is the chemical formula for water?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "H2O", "correct": true },
+          { "id": 2, "label": "B", "text": "CO2", "correct": false },
+          { "id": 3, "label": "C", "text": "O2", "correct": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "How many bones are in the adult human body?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "206", "correct": true },
+          { "id": 2, "label": "B", "text": "185", "correct": false },
+          { "id": 3, "label": "C", "text": "220", "correct": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "What force keeps planets in orbit around the Sun?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Magnetism", "correct": false },
+          { "id": 2, "label": "B", "text": "Gravity", "correct": true },
+          { "id": 3, "label": "C", "text": "Friction", "correct": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "What is the speed of light in a vacuum?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "300,000 km/s", "correct": true },
+          { "id": 2, "label": "B", "text": "150,000 km/s", "correct": false },
+          { "id": 3, "label": "C", "text": "500,000 km/s", "correct": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Which organ is responsible for pumping blood throughout the body?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Lungs", "correct": false },
+          { "id": 2, "label": "B", "text": "Liver", "correct": false },
+          { "id": 3, "label": "C", "text": "Heart", "correct": true }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "What is the atomic number of carbon?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "6", "correct": true },
+          { "id": 2, "label": "B", "text": "8", "correct": false },
+          { "id": 3, "label": "C", "text": "12", "correct": false }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Which planet is known as the Red Planet?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Jupiter", "correct": false },
+          { "id": 2, "label": "B", "text": "Mars", "correct": true },
+          { "id": 3, "label": "C", "text": "Saturn", "correct": false }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "What type of energy does the Sun primarily produce?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Nuclear energy", "correct": true },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Chemical energy",
+            "correct": false
+          },
+          { "id": 3, "label": "C", "text": "Kinetic energy", "correct": false }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "What is the most abundant gas in Earth's atmosphere?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Oxygen", "correct": false },
+          { "id": 2, "label": "B", "text": "Carbon Dioxide", "correct": false },
+          { "id": 3, "label": "C", "text": "Nitrogen", "correct": true }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "What is the process by which plants make their own food?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Photosynthesis", "correct": true },
+          { "id": 2, "label": "B", "text": "Respiration", "correct": false },
+          { "id": 3, "label": "C", "text": "Fermentation", "correct": false }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "What is the chemical symbol for sodium?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "So", "correct": false },
+          { "id": 2, "label": "B", "text": "Na", "correct": true },
+          { "id": 3, "label": "C", "text": "Sd", "correct": false }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Which scientist is known for the laws of motion?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Isaac Newton", "correct": true },
+          { "id": 2, "label": "B", "text": "Marie Curie", "correct": false },
+          { "id": 3, "label": "C", "text": "Charles Darwin", "correct": false }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "What is the hardest natural substance on Earth?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Gold", "correct": false },
+          { "id": 2, "label": "B", "text": "Iron", "correct": false },
+          { "id": 3, "label": "C", "text": "Diamond", "correct": true }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "How many planets are in our solar system?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "7", "correct": false },
+          { "id": 2, "label": "B", "text": "8", "correct": true },
+          { "id": 3, "label": "C", "text": "9", "correct": false }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "What is the unit of electrical resistance?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Volt", "correct": false },
+          { "id": 2, "label": "B", "text": "Ampere", "correct": false },
+          { "id": 3, "label": "C", "text": "Ohm", "correct": true }
         ]
       }
     ]
@@ -194,6 +784,170 @@
           { "id": 1, "label": "A", "text": "Oxygen", "correct": false },
           { "id": 2, "label": "B", "text": "Carbon Dioxide", "correct": true },
           { "id": 3, "label": "C", "text": "Nitrogen", "correct": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the tallest tree in the world?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Redwood", "correct": true },
+          { "id": 2, "label": "B", "text": "Oak", "correct": false },
+          { "id": 3, "label": "C", "text": "Pine", "correct": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which is the longest river in the world?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Amazon", "correct": false },
+          { "id": 2, "label": "B", "text": "Nile", "correct": true },
+          { "id": 3, "label": "C", "text": "Yangtze", "correct": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "What is the largest ocean on Earth?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Atlantic Ocean", "correct": false },
+          { "id": 2, "label": "B", "text": "Indian Ocean", "correct": false },
+          { "id": 3, "label": "C", "text": "Pacific Ocean", "correct": true }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which animal is known as the fastest land animal?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Cheetah", "correct": true },
+          { "id": 2, "label": "B", "text": "Lion", "correct": false },
+          { "id": 3, "label": "C", "text": "Horse", "correct": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "What is the largest rainforest in the world?",
+        "answers": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Congo Rainforest",
+            "correct": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Amazon Rainforest",
+            "correct": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Daintree Rainforest",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "How many legs does a spider have?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "6", "correct": false },
+          { "id": 2, "label": "B", "text": "10", "correct": false },
+          { "id": 3, "label": "C", "text": "8", "correct": true }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Which continent is the driest on Earth?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Africa", "correct": false },
+          { "id": 2, "label": "B", "text": "Antarctica", "correct": true },
+          { "id": 3, "label": "C", "text": "Australia", "correct": false }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "What is the main source of energy for life on Earth?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "The Moon", "correct": false },
+          { "id": 2, "label": "B", "text": "The Sun", "correct": true },
+          { "id": 3, "label": "C", "text": "Wind", "correct": false }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Which bird is known for its inability to fly?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Eagle", "correct": false },
+          { "id": 2, "label": "B", "text": "Penguin", "correct": true },
+          { "id": 3, "label": "C", "text": "Parrot", "correct": false }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "What is the name of the process by which water evaporates and falls back as rain?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Water Cycle", "correct": true },
+          { "id": 2, "label": "B", "text": "Photosynthesis", "correct": false },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Condensation Loop",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Which is the largest land animal?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Hippopotamus", "correct": false },
+          { "id": 2, "label": "B", "text": "Elephant", "correct": true },
+          { "id": 3, "label": "C", "text": "Rhinoceros", "correct": false }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "What type of animal is a shark?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Mammal", "correct": false },
+          { "id": 2, "label": "B", "text": "Fish", "correct": true },
+          { "id": 3, "label": "C", "text": "Reptile", "correct": false }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "What is the outer layer of the Earth called?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Mantle", "correct": false },
+          { "id": 2, "label": "B", "text": "Core", "correct": false },
+          { "id": 3, "label": "C", "text": "Crust", "correct": true }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Which flower is known as the symbol of love?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Rose", "correct": true },
+          { "id": 2, "label": "B", "text": "Lily", "correct": false },
+          { "id": 3, "label": "C", "text": "Tulip", "correct": false }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "What is the most common type of tree in tropical rainforests?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Pine", "correct": false },
+          { "id": 2, "label": "B", "text": "Broadleaf", "correct": true },
+          { "id": 3, "label": "C", "text": "Cactus", "correct": false }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Which natural disaster is measured using the Richter scale?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Tornado", "correct": false },
+          { "id": 2, "label": "B", "text": "Earthquake", "correct": true },
+          { "id": 3, "label": "C", "text": "Tsunami", "correct": false }
         ]
       }
     ]
@@ -247,6 +1001,150 @@
           { "id": 1, "label": "A", "text": "5", "correct": false },
           { "id": 2, "label": "B", "text": "6", "correct": false },
           { "id": 3, "label": "C", "text": "7", "correct": true }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which country has the largest population?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "China", "correct": true },
+          { "id": 2, "label": "B", "text": "India", "correct": false },
+          { "id": 3, "label": "C", "text": "USA", "correct": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "What is the capital of Japan?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Beijing", "correct": false },
+          { "id": 2, "label": "B", "text": "Tokyo", "correct": true },
+          { "id": 3, "label": "C", "text": "Seoul", "correct": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "How many days are in a leap year?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "365", "correct": false },
+          { "id": 2, "label": "B", "text": "366", "correct": true },
+          { "id": 3, "label": "C", "text": "364", "correct": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which language is spoken the most in the world?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "English", "correct": false },
+          { "id": 2, "label": "B", "text": "Spanish", "correct": false },
+          { "id": 3, "label": "C", "text": "Mandarin Chinese", "correct": true }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "What is the currency of the United Kingdom?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Euro", "correct": false },
+          { "id": 2, "label": "B", "text": "Pound Sterling", "correct": true },
+          { "id": 3, "label": "C", "text": "Dollar", "correct": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Which country is the largest in the world by area?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Canada", "correct": false },
+          { "id": 2, "label": "B", "text": "China", "correct": false },
+          { "id": 3, "label": "C", "text": "Russia", "correct": true }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "How many colors are in a rainbow?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "7", "correct": true },
+          { "id": 2, "label": "B", "text": "6", "correct": false },
+          { "id": 3, "label": "C", "text": "8", "correct": false }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "What is the tallest mountain in the world?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "K2", "correct": false },
+          { "id": 2, "label": "B", "text": "Mount Everest", "correct": true },
+          { "id": 3, "label": "C", "text": "Mont Blanc", "correct": false }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Which planet is the largest in our solar system?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Saturn", "correct": false },
+          { "id": 2, "label": "B", "text": "Jupiter", "correct": true },
+          { "id": 3, "label": "C", "text": "Neptune", "correct": false }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "What is the smallest country in the world?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Monaco", "correct": false },
+          { "id": 2, "label": "B", "text": "San Marino", "correct": false },
+          { "id": 3, "label": "C", "text": "Vatican City", "correct": true }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "In which year did World War II end?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "1943", "correct": false },
+          { "id": 2, "label": "B", "text": "1945", "correct": true },
+          { "id": 3, "label": "C", "text": "1947", "correct": false }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Which sport is played at Wimbledon?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Football", "correct": false },
+          { "id": 2, "label": "B", "text": "Tennis", "correct": true },
+          { "id": 3, "label": "C", "text": "Cricket", "correct": false }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "What is the national animal of Australia?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Koala", "correct": false },
+          { "id": 2, "label": "B", "text": "Kangaroo", "correct": true },
+          { "id": 3, "label": "C", "text": "Emu", "correct": false }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "How many sides does a hexagon have?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "5", "correct": false },
+          { "id": 2, "label": "B", "text": "7", "correct": false },
+          { "id": 3, "label": "C", "text": "6", "correct": true }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Which city is known as the 'Big Apple'?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Los Angeles", "correct": false },
+          { "id": 2, "label": "B", "text": "New York City", "correct": true },
+          { "id": 3, "label": "C", "text": "Chicago", "correct": false }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "What is the longest bone in the human body?",
+        "answers": [
+          { "id": 1, "label": "A", "text": "Spine", "correct": false },
+          { "id": 2, "label": "B", "text": "Femur", "correct": true },
+          { "id": 3, "label": "C", "text": "Tibia", "correct": false }
         ]
       }
     ]

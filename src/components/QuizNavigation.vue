@@ -25,10 +25,9 @@ const emit = defineEmits(["next", "prev", "finish"]);
       >
         <path d="M19 12H5M12 5l-7 7 7 7" />
       </svg>
-      <span>Prev</span>
+      <span class="btn-label">Prev</span>
     </button>
 
-    <!-- Dot indicators -->
     <div class="dot-nav">
       <div
         v-for="n in Math.min(totalQuestions, 8)"
@@ -50,7 +49,7 @@ const emit = defineEmits(["next", "prev", "finish"]);
         @click="emit('next')"
         :disabled="currentQuestionIndex >= totalQuestions - 1"
       >
-        <span>Next</span>
+        <span class="btn-label">Next</span>
         <svg
           viewBox="0 0 24 24"
           fill="none"
@@ -71,7 +70,8 @@ const emit = defineEmits(["next", "prev", "finish"]);
         <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
           <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
         </svg>
-        <span>Selesai</span>
+        <!-- Sembunyikan teks "Selesai" di layar sangat kecil, icon saja -->
+        <span class="btn-label">Selesai</span>
       </button>
     </div>
   </div>
@@ -187,5 +187,61 @@ const emit = defineEmits(["next", "prev", "finish"]);
 .btn-finish:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(249, 115, 22, 0.5);
+}
+
+/* Tambahkan di bagian bawah <style scoped> */
+
+/* Tablet */
+@media (max-width: 640px) {
+  .navigation {
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 20px;
+  }
+
+  .btn {
+    padding: 9px 14px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+
+  .right-btns {
+    gap: 8px;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .dot-active {
+    width: 16px;
+  }
+}
+
+/* Mobile kecil */
+@media (max-width: 400px) {
+  .navigation {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+    font-size: 11px;
+    gap: 5px;
+  }
+
+  /* Sembunyikan teks, tampilkan icon saja pada btn-finish di mobile kecil */
+  .btn-finish .btn-label {
+    display: none;
+  }
+
+  .dot-nav {
+    order: -1; /* pindah dot ke baris atas */
+    flex: 0 0 100%; /* full width */
+    justify-content: center;
+    margin-bottom: 4px;
+  }
 }
 </style>
